@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F71b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WDHomeViewController">
+            <connections>
+                <outlet property="testLabel" destination="HcV-hn-5I8" id="7jL-g8-zUE"/>
+                <outlet property="view" destination="iN0-l3-epB" id="rvp-FK-Nla"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HcV-hn-5I8">
+                    <rect key="frame" x="107.5" y="314.5" width="160" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="160" id="Sm6-as-uXk"/>
+                        <constraint firstAttribute="height" constant="38" id="rKt-zE-jDk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USk-4t-TET">
+                    <rect key="frame" x="167.5" y="411" width="40" height="30"/>
+                    <state key="normal" title="Share"/>
+                    <connections>
+                        <action selector="share:" destination="-1" eventType="touchUpInside" id="BEc-nL-w62"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qte-sm-Bs5">
+                    <rect key="frame" x="152" y="183" width="71" height="30"/>
+                    <state key="normal" title="ShowHUD"/>
+                    <connections>
+                        <action selector="showHUD:" destination="-1" eventType="touchUpInside" id="gbb-Ft-0nU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Jl-VL-8zq">
+                    <rect key="frame" x="167" y="254" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Push"/>
+                    <connections>
+                        <action selector="pushVC:" destination="-1" eventType="touchUpInside" id="jxg-46-2jQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1HC-t8-UKW">
+                    <rect key="frame" x="164" y="221" width="53" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Present"/>
+                    <connections>
+                        <action selector="present:" destination="-1" eventType="touchUpInside" id="bWS-dl-5VM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoq-GQ-kgf">
+                    <rect key="frame" x="171" y="459" width="33" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Alert"/>
+                    <connections>
+                        <action selector="alert:" destination="-1" eventType="touchUpInside" id="leW-YN-lUW"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HcV-hn-5I8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="0A6-HO-phL"/>
+                <constraint firstItem="qte-sm-Bs5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1cs-wL-hvs"/>
+                <constraint firstItem="USk-4t-TET" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="K3e-TH-9f3"/>
+                <constraint firstItem="qte-sm-Bs5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="183" id="h99-4S-AeI"/>
+                <constraint firstItem="USk-4t-TET" firstAttribute="top" secondItem="HcV-hn-5I8" secondAttribute="bottom" constant="58.5" id="kNQ-Zt-wJ8"/>
+                <constraint firstItem="HcV-hn-5I8" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="wjI-e9-Lgw"/>
+            </constraints>
+            <point key="canvasLocation" x="32.5" y="60.5"/>
+        </view>
+    </objects>
+</document>

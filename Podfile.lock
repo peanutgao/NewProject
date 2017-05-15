@@ -1,0 +1,135 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (3.3.1)
+  - Base64 (1.0.1)
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - GTSDK (1.6.3.0)
+  - HappyDNS (0.3.10)
+  - libqrencode (3.4.2)
+  - LKDBHelper (2.4.2):
+    - FMDB
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - MOBFoundation (2.2.19)
+  - MTDates (1.0.3)
+  - OpenUDID (1.0.0)
+  - Qiniu (7.0.20):
+    - AFNetworking (~> 3)
+    - HappyDNS (~> 0.3)
+  - ReactiveObjC (2.1.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - ShareSDK3 (3.6.3):
+    - MOBFoundation
+    - ShareSDK3/ShareSDK (= 3.6.3)
+  - ShareSDK3/ShareSDK (3.6.3):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/QQ (3.6.3):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (3.6.3):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/WeChat (3.6.3):
+    - MOBFoundation
+  - UITableView+FDTemplateLayoutCell (1.6)
+  - UMengAnalytics-NO-IDFA (4.2.5)
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
+  - WebViewJavascriptBridge (5.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - BaiduMapKit (~> 3.3.0)
+  - Base64 (~> 1.0.1)
+  - FLAnimatedImage (~> 1.0.12)
+  - FMDB (~> 2.6.2)
+  - GTSDK (~> 1.6.3.0-noidfa)
+  - libqrencode (~> 3.4.2)
+  - LKDBHelper (~> 2.4.1)
+  - Masonry (~> 1.0.2)
+  - MBProgressHUD (~> 1.0.0)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.0)
+  - MTDates (~> 1.0.3)
+  - OpenUDID (~> 1.0.0)
+  - Qiniu (from `https://github.com/qiniu/objc-sdk.git`, branch `AFNetworking-3.x`)
+  - ReactiveObjC (~> 2.1.0)
+  - SDWebImage (~> 4.0.0)
+  - ShareSDK3 (from `https://git.oschina.net/MobClub/ShareSDK-for-iOS.git`)
+  - ShareSDK3/ShareSDKPlatforms/QQ (from `https://git.oschina.net/MobClub/ShareSDK-for-iOS.git`)
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (from `https://git.oschina.net/MobClub/ShareSDK-for-iOS.git`)
+  - ShareSDK3/ShareSDKPlatforms/WeChat (from `https://git.oschina.net/MobClub/ShareSDK-for-iOS.git`)
+  - UITableView+FDTemplateLayoutCell (~> 1.5.beta)
+  - UMengAnalytics-NO-IDFA (~> 4.2.5)
+  - VTMagic (from `https://github.com/tianzhuo112/VTMagic.git`)
+  - WebViewJavascriptBridge (~> 5.0)
+
+EXTERNAL SOURCES:
+  Qiniu:
+    :branch: AFNetworking-3.x
+    :git: https://github.com/qiniu/objc-sdk.git
+  ShareSDK3:
+    :git: https://git.oschina.net/MobClub/ShareSDK-for-iOS.git
+  VTMagic:
+    :git: https://github.com/tianzhuo112/VTMagic.git
+
+CHECKOUT OPTIONS:
+  Qiniu:
+    :commit: 425fb4d50f39149685ee33914ac948156616408e
+    :git: https://github.com/qiniu/objc-sdk.git
+  ShareSDK3:
+    :commit: 3b8c723a9d3af20e0318a53101696de0850716e9
+    :git: https://git.oschina.net/MobClub/ShareSDK-for-iOS.git
+  VTMagic:
+    :commit: 4767af132ffe1d20833886e61fc8af36877b9e9c
+    :git: https://github.com/tianzhuo112/VTMagic.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BaiduMapKit: 9e8ff80bbcfb8f96b4a58b2844d728590dac90ca
+  Base64: 4924bf3ca6fa559a5161ef717291bd450eb7bd1a
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GTSDK: 2969a96c0fc55421033f8131952d78d612fcdef4
+  HappyDNS: 06a9fed2796663fd87626dbf02552933265bf059
+  libqrencode: 43dc34b89af83ea4b07c409cd8e09c87aa3a1c9f
+  LKDBHelper: ab67373b32f47463bf5f838d730f225824f4492a
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MOBFoundation: e962b2aee79e2b8f626e2d30c2f23e9f13e5331e
+  MTDates: c65affdfb7b34001c5c9e3fe0beac4b1b8334a58
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  Qiniu: 4dbf1e6acb3236c4d7251046a17d08b16d21fcfe
+  ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  ShareSDK3: d271520113160eb24b31cd642b45b38fcd592d93
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
+  WebViewJavascriptBridge: a00b2d61252aec5207e3263d46fd0fd3cfaf7895
+
+PODFILE CHECKSUM: c1c305507391b1b502d64312489387844b3a5e6f
+
+COCOAPODS: 1.2.1

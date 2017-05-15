@@ -1,0 +1,27 @@
+ [
+  {
+  "title": "首页",
+  "img": "home_ic_shouye",
+  "vcName": "WDHomeViewController"
+  },
+  {
+  "title": "家庭",
+  "img": "home_ic_family",
+  "vcName": "UIViewController"
+  },
+  {
+  "title": "健康圈",
+  "img": "home_ic_health",
+  "vcName": "UIViewController"
+  },
+  {
+  "title": "服务",
+  "img": "home_ic_serve",
+  "vcName": "UIViewController"
+  },
+  {
+  "title": "我的",
+  "img": "home_ic_personal",
+  "vcName": "WDProfileViewController"
+  }
+  ]
